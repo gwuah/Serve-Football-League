@@ -1,4 +1,5 @@
 class Player :
+    ''' A player class '''
     squad, goalscharts, pointscharts, assistcharts, interceptioncharts = 0, {}, {}, {}, {}
     
     def __init__(self, name, position) :
